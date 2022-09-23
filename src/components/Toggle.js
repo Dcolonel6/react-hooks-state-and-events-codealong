@@ -5,7 +5,7 @@ function Toggle({handleClick,isOn}) {
   return (<button 
     onClick={handleClick}
     style={{background: valueColor}}>
-      {isOn ? 'ON': 'OFF'}
+      {isOn ? 'On': 'OFF'}
     </button>);
 }
 
